@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/diary-upload.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <header id="header">
+            <div class="float-content">
+                <div class="flex align-center">
+                    <a href="" class="logo-title-container">
+                        <img src="../../images/logo.png">
+                    </a>
+                    <nav class="main-menu">   
+                            <h1 class="d-none">메인메뉴</h1>
+                            <ul>
+                                <li><a>우리집</a></li>
+                                <li><a>이웃집</a></li>
+                                <li><a>내 동물 관리</a></li>
+                                <li><a>커뮤니티</a></li>
+                            </ul>
+                    </nav>
+                </div>
+                <nav class="member-menu">
+                    <h1 class="d-none">회원메뉴</h1>
+                    <ul>
+                        <li><a href="">MyPage</a></li>
+                        <li><a href="">LogOut</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="body">
+            <div class="float-content">
+                <aside id="aside">
+                    <nav class="aside-menu">
+                        <h1 class="d-none">동물관리메뉴</h1>
+                        <ul>
+                            <li><a class="current-page" href="">동물 관리</a></li>
+                            <li><a href="">체중 관리</a></li>
+                            <li><a href="">일정 관리</a></li>                       
+                        </ul>
+                    </nav>
+                </aside>
+                <main id="main">
+                    <section class="write-content">
+                        <section>
+                            <h1>이미지 등록</h1>
+                            <span>*</span>
+                            <div class="img-pet">
+                                <button class="img-upload-btn">이미지 업로드</button>
+                            </div>
+                        </section>
+                        <section>
+                            <h1>일기 작성</h1>
+                            <span>*</span>
+                            <textarea placeholder="내용을 입력해주세요"></textarea>
+                        </section>
+                    </section>
+                    <section class="write-keyword">
+                        <h1>키워드 입력</h1>
+                        <input class="keyword" type="text" placeholder="#">
+                    </section>
+                    <hr>
+                    <section class="button-menu">
+                        <h1 class="d-none">버튼</h1>
+                        <button>취소하기</button>
+                        <button>등록하기</button>
+                    </section>
+                </main>
+            </div>
+        </div>
+
+        <footer id="footer"></footer>
+    </div>        
+</body>
+</html>
