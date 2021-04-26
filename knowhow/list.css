@@ -260,8 +260,9 @@ button {
 
     .knowhow-list {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-        margin: 15px 50px 50px;
+        margin: 15px 50px;
     }
 
         .knowhow-list>div {

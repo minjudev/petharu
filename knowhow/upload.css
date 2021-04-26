@@ -311,6 +311,10 @@ button {
             margin-right: 15px;
         }
 
+    .line {
+        width: 100%;
+    }
+
 @media screen and (max-width:500px) {
     #root{
         grid-template-columns: 1fr;
