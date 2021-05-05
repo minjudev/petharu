@@ -39,6 +39,10 @@ button {
     align-items: center;
 }
 
+.font {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 .title {
     font-size: 28px;
     font-weight: 800;
@@ -277,11 +281,19 @@ button {
         .button-menu>button {
             width: 150px;
             height: 40px;
-            background-color: rgb(224, 223, 223);
+            background-color: rgb(207, 204, 204);
             border-radius: 5px;
-            font-weight: bold;
-            font-size: 16px;
             cursor: pointer;
+        }
+
+        .button-menu>button:nth-child(3) {
+            background-color: rgb(250, 195, 43);
+        }
+
+        .button-menu>button>a {
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
         }
 
         .button-menu>button:nth-child(2) {
