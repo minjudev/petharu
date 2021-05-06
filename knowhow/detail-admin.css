@@ -263,7 +263,7 @@ button {
     .pet-selecting-btn {
         line-height: 50px;
         margin-left: auto;
-        /* margin-right: 20px; */
+        margin-right: 10px;
     }
 
         .pet-btn {
@@ -282,8 +282,8 @@ button {
 
     .img-pet {
         display: block;
-        width: 500px;
-        height: 400px;
+        width: 470px;
+        height: 380px;
         border-radius: 10px;
         margin: 40px auto;
     }

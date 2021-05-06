@@ -263,7 +263,7 @@ button {
     .pet-selecting-btn {
         line-height: 50px;
         margin-left: auto;
-        /* margin-right: 20px; */
+        margin-right: 10px;
     }
 
         .pet-btn {
@@ -282,8 +282,8 @@ button {
 
     .img-pet {
         display: block;
-        width: 500px;
-        height: 400px;
+        width: 470px;
+        height: 380px;
         border-radius: 10px;
         margin: 40px auto;
     }
@@ -312,11 +312,22 @@ button {
         .button-menu>button {
             width: 150px;
             height: 40px;
-            background-color: rgb(224, 223, 223);
+            background-color: rgb(207, 204, 204);
             border-radius: 5px;
-            font-weight: bold;
-            font-size: 16px;
             cursor: pointer;
+        }
+
+        .button-menu>button:nth-child(3) {
+            background-color: rgb(250, 195, 43);
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .button-menu>button>a {
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
         }
 
         .button-menu>button:nth-child(2) {

@@ -206,38 +206,19 @@ button {
             height: 45px;
             border-radius: 50%;
         }
-    
-        .id, .friend-info {
+        
+        .id {
             margin-left: 20px;
             line-height: 45px;
-        }
-    
-        .id {
             font-size: 18px;
             font-weight: bold;
-        }
-
-        .follower, .follow {
-            font-weight: bold;
-        }
-
-        .follower-num {
-            margin: 0 10px 0 5px;
-        }
-
-        .follow-num {
-            margin-left: 5px;
-        }
-    
-        .follower-num, .follow, .follow-num {
-            padding: 0;
-            cursor: pointer;
-            background: none;
         }
 
     .upload-date {
         margin: 15px 0 0 3px;
         font-size: 13px;
+        font-weight: bold;
+        color: #8a8a8a;
     }    
 
     .img-pet {
@@ -260,13 +241,13 @@ button {
 
         .keyword {
             margin-top: 20px;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .keyword>span {
-            background-color: rgb(236, 235, 234);
-            padding: 7px 10px;
-            border-radius: 10px;
+            background-color: rgb(233, 233, 233);
+            padding: 5px 10px;
+            border-radius: 15px;
         }
     
     hr {

@@ -206,38 +206,19 @@ button {
             height: 45px;
             border-radius: 50%;
         }
-    
-        .id, .friend-info {
+        
+        .id {
             margin-left: 20px;
             line-height: 45px;
-        }
-    
-        .id {
             font-size: 18px;
             font-weight: bold;
-        }
-
-        .follower, .follow {
-            font-weight: bold;
-        }
-
-        .follower-num {
-            margin: 0 10px 0 5px;
-        }
-
-        .follow-num {
-            margin-left: 5px;
-        }
-    
-        .follower-num, .follow, .follow-num {
-            padding: 0;
-            cursor: pointer;
-            background: none;
         }
 
     .upload-date {
         margin: 15px 0 0 3px;
         font-size: 13px;
+        font-weight: bold;
+        color: #8a8a8a;
     }    
 
     .button-menu {
@@ -249,8 +230,9 @@ button {
         width: 70px;
         height: 30px;
         border-radius: 5px;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
+        color: rgb(168, 166, 166);        
         margin-right: 5px;
         cursor: pointer;
     }
@@ -275,13 +257,13 @@ button {
 
         .keyword {
             margin-top: 20px;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .keyword>span {
-            background-color: rgb(236, 235, 234);
-            padding: 7px 10px;
-            border-radius: 10px;
+            background-color: rgb(233, 233, 233);
+            padding: 5px 10px;
+            border-radius: 15px;
         }
     
     hr {
@@ -309,7 +291,7 @@ button {
         top: 50%;
         width: 550px;
         height: 250px;
-        margin: -150px 0 0 -270px;
+        transform: translate(-50%,-50%);
         background-color: #fff;
         z-index: 1000;
         border-radius: 10px;
@@ -338,12 +320,20 @@ button {
                 border-radius: 5px;
                 font-size: 15px;
                 font-weight: bold;
+                color: rgb(168, 166, 166);        
                 margin-right: 10px;
                 cursor: pointer;
             }
 
+            .modal-btn:nth-child(2) {
+                background-color: rgb(207, 204, 204);
+                color: white;
+            }
+
             .modal-btn:nth-child(3) {
                 margin-right: 0;
+                background-color: rgb(250, 195, 43);
+                color: white;
             }
 
         .modal-close img {
